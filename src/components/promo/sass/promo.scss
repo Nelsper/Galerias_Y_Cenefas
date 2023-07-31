@@ -1,5 +1,30 @@
 
-.promo{
-    background-color: rgb(122, 247, 170);
+.contenedor{
+  position: fixed;
+  width: 100%;
+  background-color: rgb(15, 15, 15);
+  border-bottom: 1px solid red;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.4);
+
+
+  .promo {
+    padding: 3px; 
+    animation: promo 50s linear infinite;
+
+    .promo__text {
+      @font-face {
+        font-family: 'Led';
+        src: url('../../../assets/fonts/Famirids..ttf');
+      }
+      font-family: 'Led', sans-serif;
+      color: rgb(255, 0, 0);
+      font-size: 20px;
+    } 
+  }
 }
 
+  
+@keyframes promo {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
