@@ -4,7 +4,7 @@ import "./sass/promo.css";
 const Promo = () => {
   return (
     <>
-    <div className="contenedor">
+    <div className="contenedor fixed-top">
       <div className="promo">
         
         <span className="promo__text">
