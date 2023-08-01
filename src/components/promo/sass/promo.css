@@ -1,28 +1,17 @@
-.contenedor {
+.promo {
   width: 100%;
-  background-color: rgb(15, 15, 15);
-  border-bottom: 1px solid red;
+  height: 35px;
+  background-color: rgb(29, 29, 28);
   box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.4);
+  margin-top: 0;
+  padding: 5px;
 }
-.contenedor .promo {
-  padding: 3px;
-  animation: promo 50s linear infinite;
-}
-.contenedor .promo .promo__text {
-  font-family: "Led", sans-serif;
-  color: rgb(255, 0, 0);
-  font-size: 20px;
+.promo .titulo {
+  font-family: "LED";
+  font-size: 18px;
+  color: #fc0000;
 }
 @font-face {
-  font-family: "Led";
+  font-family: "LED";
   src: url("../../../assets/fonts/Famirids..ttf");
-}
-
-@keyframes promo {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
 }/*# sourceMappingURL=promo.css.map */

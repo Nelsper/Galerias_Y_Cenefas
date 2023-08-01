@@ -3,21 +3,26 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-
+import { Link } from "react-router-dom";
+import logo from "../../assets/img/logos/LogoWhite.svg"
 import './scss/navBar.css';
 
 const NavBar = () => {
   return (
     <>
-      <Navbar expand="lg" className="navBar fixed-top z-3">
+      <Navbar expand="md" className="navBar fixed-top z-3">
         <Container>
-          <Navbar.Brand href="#home">Bootstrap</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/inicio"><img src={logo} width={30} alt="logo página" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+
+              <Nav.Link as={Link} to="/inicio">Inicio</Nav.Link>
+              <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>
+              <Nav.Link as={Link} to="/nosotros">Nosotros</Nav.Link>
+              <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
+
+              <NavDropdown title="Cortinas" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
@@ -30,6 +35,7 @@ const NavBar = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
+
             </Nav>
           </Navbar.Collapse>
         </Container>
