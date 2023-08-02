@@ -10,6 +10,7 @@ import './scss/navBar.css';
 const NavBar = () => {
   return (
     <>
+    <header>
       <Navbar expand="md" className="navBar fixed-top z-3">
         <Container>
         <Navbar.Brand as={Link} to="/inicio"><img src={logo} width={30} alt="logo página" /></Navbar.Brand>
@@ -40,6 +41,7 @@ const NavBar = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+    </header>
     </>
   );
 };
