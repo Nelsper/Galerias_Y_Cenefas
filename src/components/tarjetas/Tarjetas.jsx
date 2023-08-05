@@ -9,7 +9,7 @@ const Tarjetas = () => {
   return (
     <>
     <div className="cards">
-      <Row xs={1} md={3} lg={3} className="g-4">
+      <Row xs={1} sm={3} md={3} lg={4} className="g-4">
         {cards.map((card, idx) => (
           <Col key={idx}>
             <Card className="card">

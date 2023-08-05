@@ -7,6 +7,8 @@ import Contacto from "./pages/contacto/Contacto";
 import Nosotros from "./pages/nosotros/Nosotros";
 import Blog from "./pages/blog/Blog";
 
+import Footer from "./components/footer/Footer";
+
 const App = () => {
 
   return(
@@ -22,6 +24,8 @@ const App = () => {
           <Route path="/blog" element={<Blog/>} />
         </Routes>
       </Router>
+
+      <Footer />
 
     </>
   );

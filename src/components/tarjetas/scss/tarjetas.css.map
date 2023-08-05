@@ -1,1 +1,1 @@
-{"version":3,"sources":["tarjetas.scss","tarjetas.css"],"names":[],"mappings":"AAAA;EACE,WAAA;EACA,aAAA;ACCF;ADCE;EACE,6CAAA;ACCJ","file":"tarjetas.css"}
+{"version":3,"sources":["tarjetas.scss","tarjetas.css"],"names":[],"mappings":"AAAA;EACE,WAAA;EACA,aAAA;EACA,mBAAA;ACCF;ADCE;EACE,6CAAA;EACA,0BAAA;ACCJ;ADAI;EACE,qBAAA;ACEN","file":"tarjetas.css"}

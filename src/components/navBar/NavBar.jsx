@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
-import logo from "../../assets/img/logos/LogoWhite.svg"
+import logo from "../../assets/img/logos/GaleriasCenefas.svg"
 import './scss/navBar.css';
 
 const NavBar = () => {
@@ -13,10 +13,10 @@ const NavBar = () => {
     <header>
       <Navbar expand="md" className="navBar fixed-top z-3">
         <Container>
-        <Navbar.Brand as={Link} to="/inicio"><img src={logo} width={30} alt="logo página" /></Navbar.Brand>
+        <Navbar.Brand as={Link} to="/inicio"><img src={logo} width={250}  alt="logo página" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mx-auto">
+            <Nav className="mx-auto items ">
 
               <Nav.Link as={Link} to="/inicio">Inicio</Nav.Link>
               <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>

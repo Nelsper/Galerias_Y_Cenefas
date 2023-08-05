@@ -35,5 +35,17 @@ const cards = [
     img: "6.jpg",
     alt: "Imagen panel",
   },
+  {
+    title: "Tapizados",
+    text: "Este es el texto de la TARJETA 7",
+    img: "7.jpg",
+    alt: "Imagen tapizados",
+  },
+  {
+    title: "Blackout",
+    text: "Este es el texto de la TARJETA 8",
+    img: "8.jpg",
+    alt: "Imagen blackout",
+  },
 ];
 export default cards;
