@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import cards from "./data";
+import { Link } from "react-router-dom";
 
 const Tarjetas = () => {
 
@@ -19,7 +20,7 @@ const Tarjetas = () => {
                 alt={card.alt}
               />
               <Card.Body>
-                <Card.Title>{card.title}</Card.Title>
+                <Card.Title as={Link} to={card.to} id="titulo">&#9758; {card.title}</Card.Title>
                 <Card.Text>{card.text}</Card.Text>
               </Card.Body>
             </Card>

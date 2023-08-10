@@ -11,12 +11,12 @@ const NavBar = () => {
   return (
     <>
     <header>
-      <Navbar expand="md" className="navBar fixed-top z-3">
+      <Navbar expand="lg" className="navBar fixed-top z-3">
         <Container>
         <Navbar.Brand as={Link} to="/inicio"><img src={logo} width={250}  alt="logo página" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mx-auto items ">
+            <Nav className=" items">
 
               <Nav.Link as={Link} to="/inicio">Inicio</Nav.Link>
               <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>
@@ -24,9 +24,9 @@ const NavBar = () => {
               <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
 
               <NavDropdown title="Cortinas" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/romana">Romana</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
-                  Another action
+                  Ondas
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
                   Something

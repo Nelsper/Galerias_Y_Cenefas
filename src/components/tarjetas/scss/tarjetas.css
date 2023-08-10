@@ -9,4 +9,13 @@
 }
 .cards .card:hover {
   transform: scale(1.1);
+}
+
+#titulo {
+  text-decoration: none;
+  font-weight: 600;
+}
+#titulo:hover {
+  color: #39a7df;
+  transition: 0.3s;
 }/*# sourceMappingURL=tarjetas.css.map */

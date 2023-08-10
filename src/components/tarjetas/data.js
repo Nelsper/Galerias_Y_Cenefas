@@ -1,9 +1,11 @@
+
 const cards = [
   {
     title: "Romana",
     text: "Este es el texto de la TARJETA 1",
     img: "1.jpg",
     alt: "Imagen romana",
+    to: "/romana"
   },
   {
     title: "Ondas",
