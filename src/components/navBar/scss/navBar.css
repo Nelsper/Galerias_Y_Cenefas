@@ -8,4 +8,17 @@
 .navBar .items {
   justify-content: space-evenly;
   width: 100%;
+}
+.navBar .items .item {
+  color: white;
+}
+.navBar .items .item:hover {
+  color: #5250da;
+  transition: 0.5s;
+}
+.navBar .items #itemActive {
+  color: #5250da;
+}
+.navBar .items #itemActive:hover {
+  color: white;
 }/*# sourceMappingURL=navBar.css.map */

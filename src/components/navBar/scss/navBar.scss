@@ -1,13 +1,26 @@
-.navBar{
-    margin-top: 35px;
-    background-color: #39a7df;
-    opacity: 95%;
-    border-bottom: 2px solid #2f2d7e;
-    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.4);
+.navBar {
+  margin-top: 35px;
+  background-color: #39a7df;
+  opacity: 95%;
+  border-bottom: 2px solid #2f2d7e;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.4);
 
-    .items{
-        justify-content: space-evenly;
-        width: 100%;
-        
+  .items {
+    justify-content: space-evenly;
+    width: 100%;
+
+    .item {
+      color: white;
+      &:hover {
+        color: #5250da;
+        transition: .5s;
+      }
     }
+    #itemActive{
+        color: #5250da;
+        &:hover{
+            color: white;
+        }
+    }
+  }
 }

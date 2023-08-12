@@ -1,7 +1,17 @@
+.cajaSubCards {
+  display: flex;
+  justify-content: center;
+}
+.cajaSubCards .subCards {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 36px;
+  color: #2f2d7e;
+}
+
 .cards {
   width: 100%;
   padding: 20px;
-  margin-bottom: 5rem;
 }
 .cards .card {
   box-shadow: 10px 9px 12px rgba(0, 0, 0, 0.15);
