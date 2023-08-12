@@ -18,12 +18,12 @@ const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className=" items">
 
-              <Nav.Link as={Link} to="/inicio">Inicio</Nav.Link>
-              <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>
-              <Nav.Link as={Link} to="/nosotros">Nosotros</Nav.Link>
-              <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
+              <Nav.Link className="item" as={Link} to="/inicio">Inicio</Nav.Link>
+              <Nav.Link className="item" as={Link} to="/contacto">Contacto</Nav.Link>
+              <Nav.Link className="item" as={Link} to="/nosotros">Nosotros</Nav.Link>
+              <Nav.Link className="item" as={Link} to="/blog">Blog</Nav.Link>
 
-              <NavDropdown title="Cortinas" id="basic-nav-dropdown">
+              <NavDropdown title="Cortinas" id="itemActive">
                 <NavDropdown.Item as={Link} to="/romana">Romana</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Ondas

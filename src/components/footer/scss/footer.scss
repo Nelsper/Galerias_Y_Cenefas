@@ -3,11 +3,11 @@
     justify-content: space-between;
     margin-top: 5rem;
     padding: 30px ;
-    background-color: aquamarine;
+    background-color: #39a7df;
 
     .logotipo{
-        margin-left: 5rem;
-        width: 90px;
+        margin-left: 2rem;
+        width: 30rem;
     }
 
     .footer__items{
@@ -16,10 +16,21 @@
         align-items: center;
         margin-right: 10rem;
         list-style: none;
+        color: white;
     }
 
 }
 .redes{
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    background-color: #20a0e0;
+    .icon{
+        font-size: 40px;
+        color: white;
+        margin: 20px;
+        &:hover{
+            color: #5250da;
+        }
+    }
     
 }

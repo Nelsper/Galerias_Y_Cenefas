@@ -1,4 +1,17 @@
+.cajaFlayer {
+  display: flex;
+  justify-content: center;
+}
+.cajaFlayer .subFlayer {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 36px;
+  color: #2f2d7e;
+}
+.cajaFlayer .subFlayer:hover {
+  color: #5250da;
+}
+
 .flayer {
   width: 100%;
-  margin-bottom: 150px;
 }/*# sourceMappingURL=inicio.css.map */
