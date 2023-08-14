@@ -8,6 +8,9 @@ import Nosotros from "./pages/nosotros/Nosotros";
 import Blog from "./pages/blog/Blog";
 
 import Romana from "./pages/cortinas/romanas/Romanas";
+import Ondas from "./pages/cortinas/ondas/Ondas";
+import Sheer from "./pages/cortinas/sheer/Sheer";
+import Panel from "./pages/cortinas/panel/Panel";
 
 import Footer from "./components/footer/Footer";
 
@@ -26,6 +29,10 @@ const App = () => {
           <Route path="/blog" element={<Blog/>} />
           
           <Route path="/romana" element={<Romana/>} />
+          <Route path="/ondas" element={<Ondas/>} />
+          <Route path="/sheer" element={<Sheer/>} />
+          <Route path="/panel" element={<Panel/>} />
+
         </Routes>
       </Router>
 
