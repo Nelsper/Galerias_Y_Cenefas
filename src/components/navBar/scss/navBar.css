@@ -21,4 +21,11 @@
 }
 .navBar .items #itemActive:hover {
   color: white;
+}
+.navBar .items #itemLink {
+  color: #2f2d7e;
+}
+.navBar .items #itemLink:hover {
+  color: #5250da;
+  background-color: #ececfc;
 }/*# sourceMappingURL=navBar.css.map */

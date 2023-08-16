@@ -24,10 +24,10 @@ const NavBar = () => {
               <Nav.Link className="item" as={Link} to="/blog">Blog</Nav.Link>
 
               <NavDropdown title="Cortinas" id="itemActive">
-                <NavDropdown.Item as={Link} to="/romana">Romana</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/ondas">Cenefa en Ondas</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/sheer">Sheer Elegance</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/panel">Panel Japones</NavDropdown.Item>
+                <NavDropdown.Item id="itemLink" as={Link} to="/romana">Romana</NavDropdown.Item>
+                <NavDropdown.Item id="itemLink" as={Link} to="/ondas">Cenefa en Ondas</NavDropdown.Item>
+                <NavDropdown.Item id="itemLink" as={Link} to="/sheer">Sheer Elegance</NavDropdown.Item>
+                <NavDropdown.Item id="itemLink" as={Link} to="/panel">Panel Japones</NavDropdown.Item>
                 
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">

@@ -21,6 +21,13 @@
         &:hover{
             color: white;
         }
-    }
+      }
+      #itemLink{
+        color:#2f2d7e;
+        &:hover{
+          color: #5250da;
+          background-color: #ececfc;
+        }
+      }
   }
 }
