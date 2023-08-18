@@ -8,25 +8,28 @@ const cards = [
     to: "/romana"
   },
   {
-    title: "Ondas",
+    title: "Cenefa en Ondas",
     text: "Este es el texto de la TARJETA 2",
     img: "2.jpg",
     alt: "Imagen ondas",
+    to: "/ondas"
   },
   {
-    title: "Sheer",
+    title: "Sheer Elegance",
     text: "Este es el texto de la TARJETA 3",
     img: "3.jpg",
     alt: "Imagen sheer",
+    to: "/sheer"
   },
   {
-    title: "Panel",
+    title: "Panel Japones",
     text: "Este es el texto de la TARJETA 4",
     img: "4.jpg",
     alt: "Imagen panel",
+    to: "/panel"
   },
   {
-    title: "Persiana",
+    title: "Enrollables",
     text: "Este es el texto de la TARJETA 5",
     img: "5.jpg",
     alt: "Imagen panel",
