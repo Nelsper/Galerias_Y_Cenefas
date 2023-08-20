@@ -34,9 +34,9 @@ const App = () => {
           <Route path="/panel" element={<Panel/>} />
 
         </Routes>
+        <Footer />
       </Router>
 
-      <Footer />
 
     </>
   );

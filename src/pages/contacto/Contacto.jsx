@@ -52,6 +52,8 @@ const Contacto = () => {
           </a>
         </div>
       </div>
+
+      <button>Sugerencias</button>
     </>
   );
 };

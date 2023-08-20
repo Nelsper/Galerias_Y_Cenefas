@@ -9,13 +9,19 @@
   margin-left: 2rem;
   width: 30rem;
 }
-.footer .footer__items {
+.footer #footer__items {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin-right: 10rem;
-  list-style: none;
+}
+.footer #footer__items #footer__item {
   color: white;
+  padding: 0;
+}
+.footer #footer__items #footer__item:hover {
+  color: #5250da;
+  transition: 0.5s;
 }
 
 .redes {
@@ -30,4 +36,5 @@
 }
 .redes .icon:hover {
   color: #5250da;
+  transition: 0.5s;
 }/*# sourceMappingURL=footer.css.map */

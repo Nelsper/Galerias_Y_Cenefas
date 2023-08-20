@@ -10,13 +10,20 @@
         width: 30rem;
     }
 
-    .footer__items{
+    #footer__items{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         margin-right: 10rem;
-        list-style: none;
-        color: white;
+
+        #footer__item{
+            color: white;
+            padding: 0;
+            &:hover{
+                color:  #5250da;
+                transition: .5s;
+            }
+        }
     }
 
 }
@@ -30,6 +37,7 @@
         margin: 20px;
         &:hover{
             color: #5250da;
+            transition: .5s;
         }
     }
     

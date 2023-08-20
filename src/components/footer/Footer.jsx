@@ -1,21 +1,24 @@
+import React from "react";
 import "./scss/footer.css";
 import logo from "../../assets/img/logos/LogoWhite.svg";
 import logo2 from "../../assets/img/logos/Name2.svg"
-
+import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
       <footer className="footer">
         <img src={logo2} alt="Logo Galerias y Cenefas" className="logotipo" />
-        <ul className="footer__items">
-          <li className="footer__item">Inicio</li>
-          <li className="footer__item">Contacto</li>
-          <li className="footer__item">Nosotros</li>
-          <li className="footer__item">Blog</li>
-          <li className="footer__item">Cortinas</li>
-          <li className="footer__item">Servicios</li>
-        </ul>
+
+        <Nav id="footer__items">
+          <Nav.Link id="footer__item" as={Link} to='/inicio'>Inicio</Nav.Link>
+          <Nav.Link id="footer__item" as={Link} to="/contacto">Contacto</Nav.Link>
+          <Nav.Link id="footer__item" as={Link} to="/nosotros">Nosotros</Nav.Link>
+          <Nav.Link id="footer__item" as={Link} to="/blog">Blog</Nav.Link>
+          <Nav.Link id="footer__item" as={Link} to="/servicios">Servicios</Nav.Link>
+        </Nav>
+        
       </footer>
       
       <div className="redes">
