@@ -1,9 +1,8 @@
 import React from "react";
 import "./scss/footer.css";
 import logo from "../../assets/img/logos/LogoWhite.svg";
-import logo2 from "../../assets/img/logos/gycFooter.svg"
-import Nav from "react-bootstrap/Nav";
-import { Link } from "react-router-dom";
+import logo2 from "../../assets/img/logos/Name2.svg"
+
 
 const Footer = () => {
   return (
