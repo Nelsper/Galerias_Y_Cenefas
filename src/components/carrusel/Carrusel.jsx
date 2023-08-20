@@ -14,6 +14,7 @@ const Carrusel = () => {
           <Carousel.Item>
             <img src={imgCarrusel_1} className="d-block w-100"/>
             <Carousel.Caption>
+              <h2 id="title__img1">Sheer Elegance</h2>
               {/* Descripción imagen */}
             </Carousel.Caption>
           </Carousel.Item>

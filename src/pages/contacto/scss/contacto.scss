@@ -44,5 +44,8 @@ header{
     i{
         margin: 15px;
         color: #39a7df;
+        &:hover{
+            color: #00a7fa;
+        }
     }
 }
