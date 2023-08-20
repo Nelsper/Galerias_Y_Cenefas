@@ -1,9 +1,9 @@
 import Carousel from "react-bootstrap/Carousel";
 import "./scss/carrusel.css";
 
-import imgCarrusel_1 from "../../assets/img/carrusel/Cyber.jpg";
-import imgCarrusel_2 from "../../assets/img/carrusel/Flayer.jpg";
-import imgCarrusel_3 from "../../assets/img/carrusel/Friday.jpg";
+import imgCarrusel_1 from "../../assets/img/carrusel/1.png";
+import imgCarrusel_2 from "../../assets/img/carrusel/2.png";
+import imgCarrusel_3 from "../../assets/img/carrusel/3.png";
 
 const Carrusel = () => {
   return (
